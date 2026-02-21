@@ -1,0 +1,9 @@
+[33m1c67af3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: reset: moving to HEAD
+[33m1c67af3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{1}: pull origin master: Fast-forward
+[33m304850a[m HEAD@{2}: reset: moving to HEAD
+[33m304850a[m HEAD@{3}: pull origin master: Fast-forward
+[33me7188be[m HEAD@{4}: reset: moving to HEAD
+[33me7188be[m HEAD@{5}: checkout: moving from recovery-section to master
+[33ma27a681[m[33m ([m[1;31morigin/recovery-section[m[33m, [m[1;32mrecovery-section[m[33m, [m[1;32mmain[m[33m)[m HEAD@{6}: commit: Feat: container/right image
+[33me7188be[m HEAD@{7}: checkout: moving from master to recovery-section
+[33me7188be[m HEAD@{8}: pull: Fast-forward
