@@ -2,13 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/output.css">
     <title>Recovery</title>
+     <link href="/src/output.css" rel="stylesheet">
   </head>
-  <body class="bg-black h-screen w-screen overflow-hidden m-0 p-0">
-    <div class="flex h-screen w-screen">
+  <body >
+    <!--Page Container-->
+    <div>
 
+      <!--Left Section Container (Confirm Recovery Phrase)-->
+      <div class="bg-[#36454F] flex flex-col items-center min-h-screen">
+<div class="flex items-center justify-between w-full pl-12 pr-12 ">
+  <div class="flex  items-center justify-center gap-4">
+<div class="hover:bg-gray-400 rounded">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-8 ">
+    <path fill-rule="evenodd" d="M11.03 3.97a.75.75 0 0 1 0 1.06l-6.22 6.22H21a.75.75 0 0 1 0 1.5H4.81l6.22 6.22a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd" />
+  </svg> 
+</div>
+    
+    <span class="text-[20px] text-white font-bold capitalize">back</span>
+  </div>
 
       <!--Left Section Container-->
       <section class="flex-1 flex items-start justify-center p-2 pt-4 overflow-y-auto">
@@ -60,15 +74,16 @@
             </a>
           </div>
         </div>
-      </section>
+      </div>
+    
+   
 
       <!--Right Section Container (Page Image)-->
-      <section class="flex-1 flex items-center justify-center p-4 overflow-hidden">
-        <div class="w-full h-full flex items-center justify-center">
-          <img src="/assets/recovery-key.png" alt="Recovery Key" class="w-full h-full max-h-full object-contain">
+      <div class="flex-1 flex items-center justify-center p-8">
+        <div class="max-w-3xl w-full">
+          <img src="/assets/recovery-key.png" alt="Recovery Key" class="w-full h-auto object-contain">
         </div>
-      </section>
+      </div>
     </div>
-
   </body>
 </html>
